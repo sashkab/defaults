@@ -38,3 +38,9 @@ Restart SystemUIServier:
 #### mounted servers 
 
     defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+
+### Expand Save and Print dialogs by default
+
+    defaults write -g NSNavPanelExpandedStateForSaveMode -boolean true
+    defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
+
