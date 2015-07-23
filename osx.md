@@ -44,3 +44,7 @@ Restart SystemUIServier:
     defaults write -g NSNavPanelExpandedStateForSaveMode -boolean true
     defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
 
+### Disable File extension change warning dialog
+
+    defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
