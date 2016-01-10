@@ -48,3 +48,9 @@ Restart SystemUIServier:
 
     defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
+### Disable .DSStore files on USB drives
+
+    defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
+[source](http://krypted.com/mac-security/disable-dsstore-files-on-usb-drives)
+
