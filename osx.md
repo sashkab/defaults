@@ -54,3 +54,9 @@ Restart SystemUIServier:
 
 [source](http://krypted.com/mac-security/disable-dsstore-files-on-usb-drives)
 
+### Enable Debug menu in App Store
+
+    defaults write com.apple.appstore ShowDebugMenu -bool true
+
+[source](https://www.macstories.net/mac/what-to-do-when-the-mac-app-store-app-just-spins-and-spins/)
+
