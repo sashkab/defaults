@@ -70,3 +70,10 @@ defaults write com.apple.appstore ShowDebugMenu -bool true
 
 [source](https://www.macstories.net/mac/what-to-do-when-the-mac-app-store-app-just-spins-and-spins/)
 
+### Use plain text as default format in TextEdit
+
+```
+defaults write com.apple.TextEdit RichText -int 0
+```
+
+[source](http://www.defaults-write.com/plain-text-default-textedit/)
