@@ -8,7 +8,7 @@
 
 #### Change location of screenshots
 
-    defaults write com.apple.screencapture location ${HOME}/Documents/_screenshots
+    defaults write com.apple.screencapture location ${HOME}/Pictures/screenshots
 
 Restart SystemUIServier:
 
@@ -46,34 +46,26 @@ Restart SystemUIServier:
 
 ### Disable File extension change warning dialog
 
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+    defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 ### Disable .DSStore files on USB drives
 
-```
-defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
-```
+    defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 [source](http://krypted.com/mac-security/disable-dsstore-files-on-usb-drives)
 
 ### Disable .DSStore files on Network drives
 
-```
-defaults write com.apple.desktopservices DSDontWriteNetworkStores true
-```
+    defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 ### Enable Debug menu in App Store
 
-```
-defaults write com.apple.appstore ShowDebugMenu -bool true
-```
+    defaults write com.apple.appstore ShowDebugMenu -bool true
 
 [source](https://www.macstories.net/mac/what-to-do-when-the-mac-app-store-app-just-spins-and-spins/)
 
 ### Use plain text as default format in TextEdit
 
-```
-defaults write com.apple.TextEdit RichText -int 0
-```
+    defaults write com.apple.TextEdit RichText -int 0
 
 [source](http://www.defaults-write.com/plain-text-default-textedit/)
